@@ -44,23 +44,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BF81F069188BDA3400BDEBB9 /* SideBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF81F069188BDA3400BDEBB9 /* iCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF81F06C188BDA3400BDEBB9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BF81F06E188BDA3400BDEBB9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		BF81F070188BDA3400BDEBB9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		BF81F074188BDA3400BDEBB9 /* SideBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SideBar-Info.plist"; sourceTree = "<group>"; };
+		BF81F074188BDA3400BDEBB9 /* iCalc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iCalc-Info.plist"; sourceTree = "<group>"; };
 		BF81F076188BDA3400BDEBB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BF81F078188BDA3400BDEBB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BF81F07A188BDA3400BDEBB9 /* SideBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SideBar-Prefix.pch"; sourceTree = "<group>"; };
+		BF81F07A188BDA3400BDEBB9 /* iCalc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iCalc-Prefix.pch"; sourceTree = "<group>"; };
 		BF81F07B188BDA3400BDEBB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BF81F07C188BDA3400BDEBB9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BF81F07F188BDA3400BDEBB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF81F081188BDA3400BDEBB9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BF81F082188BDA3400BDEBB9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BF81F084188BDA3400BDEBB9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		BF81F08A188BDA3400BDEBB9 /* SideBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SideBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF81F08A188BDA3400BDEBB9 /* iCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF81F08B188BDA3400BDEBB9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		BF81F093188BDA3400BDEBB9 /* SideBarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SideBarTests-Info.plist"; sourceTree = "<group>"; };
+		BF81F093188BDA3400BDEBB9 /* iCalcTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iCalcTests-Info.plist"; sourceTree = "<group>"; };
 		BF81F095188BDA3400BDEBB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BF81F097188BDA3400BDEBB9 /* SideBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SideBarTests.m; sourceTree = "<group>"; };
 		BF81F0A1188BDA4100BDEBB9 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
@@ -105,8 +105,8 @@
 		BF81F060188BDA3400BDEBB9 = {
 			isa = PBXGroup;
 			children = (
-				BF81F072188BDA3400BDEBB9 /* SideBar */,
-				BF81F091188BDA3400BDEBB9 /* SideBarTests */,
+				BF81F072188BDA3400BDEBB9 /* iCalc */,
+				BF81F091188BDA3400BDEBB9 /* iCalcTests */,
 				BF81F06B188BDA3400BDEBB9 /* Frameworks */,
 				BF81F06A188BDA3400BDEBB9 /* Products */,
 			);
@@ -115,8 +115,8 @@
 		BF81F06A188BDA3400BDEBB9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BF81F069188BDA3400BDEBB9 /* SideBar.app */,
-				BF81F08A188BDA3400BDEBB9 /* SideBarTests.xctest */,
+				BF81F069188BDA3400BDEBB9 /* iCalc.app */,
+				BF81F08A188BDA3400BDEBB9 /* iCalcTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,7 +132,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BF81F072188BDA3400BDEBB9 /* SideBar */ = {
+		BF81F072188BDA3400BDEBB9 /* iCalc */ = {
 			isa = PBXGroup;
 			children = (
 				BF81F07B188BDA3400BDEBB9 /* AppDelegate.h */,
@@ -156,33 +156,35 @@
 				BF81F0AA188C4F7F00BDEBB9 /* MainViewController.h */,
 				BF81F0AB188C4F7F00BDEBB9 /* MainViewController.m */,
 			);
+			name = iCalc;
 			path = SideBar;
 			sourceTree = "<group>";
 		};
 		BF81F073188BDA3400BDEBB9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BF81F074188BDA3400BDEBB9 /* SideBar-Info.plist */,
+				BF81F074188BDA3400BDEBB9 /* iCalc-Info.plist */,
 				BF81F075188BDA3400BDEBB9 /* InfoPlist.strings */,
 				BF81F078188BDA3400BDEBB9 /* main.m */,
-				BF81F07A188BDA3400BDEBB9 /* SideBar-Prefix.pch */,
+				BF81F07A188BDA3400BDEBB9 /* iCalc-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		BF81F091188BDA3400BDEBB9 /* SideBarTests */ = {
+		BF81F091188BDA3400BDEBB9 /* iCalcTests */ = {
 			isa = PBXGroup;
 			children = (
 				BF81F097188BDA3400BDEBB9 /* SideBarTests.m */,
 				BF81F092188BDA3400BDEBB9 /* Supporting Files */,
 			);
+			name = iCalcTests;
 			path = SideBarTests;
 			sourceTree = "<group>";
 		};
 		BF81F092188BDA3400BDEBB9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BF81F093188BDA3400BDEBB9 /* SideBarTests-Info.plist */,
+				BF81F093188BDA3400BDEBB9 /* iCalcTests-Info.plist */,
 				BF81F094188BDA3400BDEBB9 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -191,9 +193,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BF81F068188BDA3400BDEBB9 /* SideBar */ = {
+		BF81F068188BDA3400BDEBB9 /* iCalc */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF81F09B188BDA3400BDEBB9 /* Build configuration list for PBXNativeTarget "SideBar" */;
+			buildConfigurationList = BF81F09B188BDA3400BDEBB9 /* Build configuration list for PBXNativeTarget "iCalc" */;
 			buildPhases = (
 				BF81F065188BDA3400BDEBB9 /* Sources */,
 				BF81F066188BDA3400BDEBB9 /* Frameworks */,
@@ -203,14 +205,14 @@
 			);
 			dependencies = (
 			);
-			name = SideBar;
+			name = iCalc;
 			productName = SideBar;
-			productReference = BF81F069188BDA3400BDEBB9 /* SideBar.app */;
+			productReference = BF81F069188BDA3400BDEBB9 /* iCalc.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BF81F089188BDA3400BDEBB9 /* SideBarTests */ = {
+		BF81F089188BDA3400BDEBB9 /* iCalcTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF81F09E188BDA3400BDEBB9 /* Build configuration list for PBXNativeTarget "SideBarTests" */;
+			buildConfigurationList = BF81F09E188BDA3400BDEBB9 /* Build configuration list for PBXNativeTarget "iCalcTests" */;
 			buildPhases = (
 				BF81F086188BDA3400BDEBB9 /* Sources */,
 				BF81F087188BDA3400BDEBB9 /* Frameworks */,
@@ -221,9 +223,9 @@
 			dependencies = (
 				BF81F090188BDA3400BDEBB9 /* PBXTargetDependency */,
 			);
-			name = SideBarTests;
+			name = iCalcTests;
 			productName = SideBarTests;
-			productReference = BF81F08A188BDA3400BDEBB9 /* SideBarTests.xctest */;
+			productReference = BF81F08A188BDA3400BDEBB9 /* iCalcTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -240,7 +242,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BF81F064188BDA3400BDEBB9 /* Build configuration list for PBXProject "SideBar" */;
+			buildConfigurationList = BF81F064188BDA3400BDEBB9 /* Build configuration list for PBXProject "iCalc" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -253,8 +255,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BF81F068188BDA3400BDEBB9 /* SideBar */,
-				BF81F089188BDA3400BDEBB9 /* SideBarTests */,
+				BF81F068188BDA3400BDEBB9 /* iCalc */,
+				BF81F089188BDA3400BDEBB9 /* iCalcTests */,
 			);
 		};
 /* End PBXProject section */
@@ -314,7 +316,7 @@
 /* Begin PBXTargetDependency section */
 		BF81F090188BDA3400BDEBB9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BF81F068188BDA3400BDEBB9 /* SideBar */;
+			target = BF81F068188BDA3400BDEBB9 /* iCalc */;
 			targetProxy = BF81F08F188BDA3400BDEBB9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -425,9 +427,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SideBar/SideBar-Prefix.pch";
-				INFOPLIST_FILE = "SideBar/SideBar-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "SideBar/iCalc-Prefix.pch";
+				INFOPLIST_FILE = "SideBar/iCalc-Info.plist";
+				PRODUCT_NAME = iCalc;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -438,9 +440,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SideBar/SideBar-Prefix.pch";
-				INFOPLIST_FILE = "SideBar/SideBar-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "SideBar/iCalc-Prefix.pch";
+				INFOPLIST_FILE = "SideBar/iCalc-Info.plist";
+				PRODUCT_NAME = iCalc;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -461,8 +463,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "SideBarTests/SideBarTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "SideBarTests/iCalcTests-Info.plist";
+				PRODUCT_NAME = iCalcTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -480,8 +482,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SideBar/SideBar-Prefix.pch";
-				INFOPLIST_FILE = "SideBarTests/SideBarTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "SideBarTests/iCalcTests-Info.plist";
+				PRODUCT_NAME = iCalcTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -490,7 +492,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BF81F064188BDA3400BDEBB9 /* Build configuration list for PBXProject "SideBar" */ = {
+		BF81F064188BDA3400BDEBB9 /* Build configuration list for PBXProject "iCalc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF81F099188BDA3400BDEBB9 /* Debug */,
@@ -499,21 +501,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF81F09B188BDA3400BDEBB9 /* Build configuration list for PBXNativeTarget "SideBar" */ = {
+		BF81F09B188BDA3400BDEBB9 /* Build configuration list for PBXNativeTarget "iCalc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF81F09C188BDA3400BDEBB9 /* Debug */,
 				BF81F09D188BDA3400BDEBB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		BF81F09E188BDA3400BDEBB9 /* Build configuration list for PBXNativeTarget "SideBarTests" */ = {
+		BF81F09E188BDA3400BDEBB9 /* Build configuration list for PBXNativeTarget "iCalcTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF81F09F188BDA3400BDEBB9 /* Debug */,
 				BF81F0A0188BDA3400BDEBB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

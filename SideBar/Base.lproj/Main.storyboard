@@ -572,7 +572,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="labelResult" destination="eC0-AI-sMe" id="wv2-ad-wLk"/>
-                        <outlet property="sidebarButton" destination="tkn-rj-Mmz" id="hfx-Kv-Uwh"/>
+                        <outlet property="sidebarButton" destination="tkn-rj-Mmz" id="d9U-HC-0eO"/>
                         <outletCollection property="contentItems" destination="oED-GG-3Z6" id="ea5-1U-Zn5"/>
                         <outletCollection property="contentItems" destination="1gM-fm-EeG" id="KT1-K2-Hrk"/>
                         <outletCollection property="contentItems" destination="E1w-wJ-cCA" id="Onb-Bm-Pic"/>

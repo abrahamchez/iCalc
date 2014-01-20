@@ -34,48 +34,56 @@
         for (UIButton *buttons in self.contentItems) {
             [buttons setTitleColor:[UIColor colorWithRed:52/255.0 green:152/255.0 blue:219/255.0 alpha:1.0] forState:UIControlStateNormal];
         }
+        self.sidebarButton.tintColor = [UIColor colorWithRed:52/255.0 green:152/255.0 blue:219/255.0 alpha:1.0];
     }
     if ([self.textColor  isEqual: @"turquoise"]){
         self.view.backgroundColor = [UIColor colorWithRed:26/255.0 green:188/255.0 blue:156/255.0 alpha:1.0];
         for (UIButton *buttons in self.contentItems) {
             [buttons setTitleColor:[UIColor colorWithRed:26/255.0 green:188/255.0 blue:156/255.0 alpha:1.0] forState:UIControlStateNormal];
         }
+        self.sidebarButton.tintColor = [UIColor colorWithRed:26/255.0 green:188/255.0 blue:156/255.0 alpha:1.0];
     }
     if ([self.textColor  isEqual: @"emerland"]){
         self.view.backgroundColor = [UIColor colorWithRed:46/255.0 green:204/255.0 blue:113/255.0 alpha:1.0];
         for (UIButton *buttons in self.contentItems) {
             [buttons setTitleColor:[UIColor colorWithRed:46/255.0 green:204/255.0 blue:113/255.0 alpha:1.0] forState:UIControlStateNormal];
         }
+        self.sidebarButton.tintColor = [UIColor colorWithRed:46/255.0 green:204/255.0 blue:113/255.0 alpha:1.0];
     }
     if ([self.textColor  isEqual: @"blue"]){
         self.view.backgroundColor = [UIColor colorWithRed:52/255.0 green:152/255.0 blue:219/255.0 alpha:1.0];
         for (UIButton *buttons in self.contentItems) {
             [buttons setTitleColor:[UIColor colorWithRed:52/255.0 green:152/255.0 blue:219/255.0 alpha:1.0] forState:UIControlStateNormal];
         }
+        self.sidebarButton.tintColor = [UIColor colorWithRed:52/255.0 green:152/255.0 blue:219/255.0 alpha:1.0];
     }
     if ([self.textColor  isEqual: @"yellow"]){
         self.view.backgroundColor = [UIColor colorWithRed:241/255.0 green:196/255.0 blue:15/255.0 alpha:1.0];
         for (UIButton *buttons in self.contentItems) {
             [buttons setTitleColor:[UIColor colorWithRed:241/255.0 green:196/255.0 blue:15/255.0 alpha:1.0] forState:UIControlStateNormal];
         }
+        self.sidebarButton.tintColor = [UIColor colorWithRed:241/255.0 green:196/255.0 blue:15/255.0 alpha:1.0];
     }
     if ([self.textColor  isEqual: @"orange"]){
         self.view.backgroundColor = [UIColor colorWithRed:230/255.0 green:126/255.0 blue:34/255.0 alpha:1.0];
         for (UIButton *buttons in self.contentItems) {
             [buttons setTitleColor:[UIColor colorWithRed:230/255.0 green:126/255.0 blue:34/255.0 alpha:1.0] forState:UIControlStateNormal];
         }
+        self.sidebarButton.tintColor = [UIColor colorWithRed:230/255.0 green:126/255.0 blue:34/255.0 alpha:1.0];
     }
     if ([self.textColor  isEqual: @"red"]){
         self.view.backgroundColor = [UIColor colorWithRed:192/255.0 green:57/255.0 blue:43/255.0 alpha:1.0];
         for (UIButton *buttons in self.contentItems) {
             [buttons setTitleColor:[UIColor colorWithRed:192/255.0 green:57/255.0 blue:43/255.0 alpha:1.0] forState:UIControlStateNormal];
         }
+        self.sidebarButton.tintColor = [UIColor colorWithRed:192/255.0 green:57/255.0 blue:43/255.0 alpha:1.0];
     }
     if ([self.textColor  isEqual: @"purple"]){
         self.view.backgroundColor = [UIColor colorWithRed:142/255.0 green:68/255.0 blue:173/255.0 alpha:1.0];
         for (UIButton *buttons in self.contentItems) {
             [buttons setTitleColor:[UIColor colorWithRed:142/255.0 green:68/255.0 blue:173/255.0 alpha:1.0] forState:UIControlStateNormal];
         }
+        self.sidebarButton.tintColor = [UIColor colorWithRed:142/255.0 green:68/255.0 blue:173/255.0 alpha:1.0];
     }
     
     // Change button color

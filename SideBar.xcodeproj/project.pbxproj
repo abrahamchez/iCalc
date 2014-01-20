@@ -21,6 +21,16 @@
 		BF81F08E188BDA3400BDEBB9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF81F070188BDA3400BDEBB9 /* UIKit.framework */; };
 		BF81F096188BDA3400BDEBB9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF81F094188BDA3400BDEBB9 /* InfoPlist.strings */; };
 		BF81F098188BDA3400BDEBB9 /* SideBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF81F097188BDA3400BDEBB9 /* SideBarTests.m */; };
+		BF81F0A3188BDA4100BDEBB9 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF81F0A2188BDA4100BDEBB9 /* SWRevealViewController.m */; };
+		BF81F0A9188C4C0400BDEBB9 /* SidebarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF81F0A8188C4C0400BDEBB9 /* SidebarViewController.m */; };
+		BF81F0AC188C4F8000BDEBB9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF81F0AB188C4F7F00BDEBB9 /* MainViewController.m */; };
+		BF81F0BA188C753C00BDEBB9 /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = BF81F0B3188C753C00BDEBB9 /* blue.png */; };
+		BF81F0BB188C753C00BDEBB9 /* emerland.png in Resources */ = {isa = PBXBuildFile; fileRef = BF81F0B4188C753C00BDEBB9 /* emerland.png */; };
+		BF81F0BC188C753C00BDEBB9 /* orange.png in Resources */ = {isa = PBXBuildFile; fileRef = BF81F0B5188C753C00BDEBB9 /* orange.png */; };
+		BF81F0BD188C753C00BDEBB9 /* purple.png in Resources */ = {isa = PBXBuildFile; fileRef = BF81F0B6188C753C00BDEBB9 /* purple.png */; };
+		BF81F0BE188C753C00BDEBB9 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = BF81F0B7188C753C00BDEBB9 /* red.png */; };
+		BF81F0BF188C753C00BDEBB9 /* turquoise.png in Resources */ = {isa = PBXBuildFile; fileRef = BF81F0B8188C753C00BDEBB9 /* turquoise.png */; };
+		BF81F0C0188C753C00BDEBB9 /* yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = BF81F0B9188C753C00BDEBB9 /* yellow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +63,19 @@
 		BF81F093188BDA3400BDEBB9 /* SideBarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SideBarTests-Info.plist"; sourceTree = "<group>"; };
 		BF81F095188BDA3400BDEBB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BF81F097188BDA3400BDEBB9 /* SideBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SideBarTests.m; sourceTree = "<group>"; };
+		BF81F0A1188BDA4100BDEBB9 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		BF81F0A2188BDA4100BDEBB9 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		BF81F0A7188C4C0400BDEBB9 /* SidebarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarViewController.h; sourceTree = "<group>"; };
+		BF81F0A8188C4C0400BDEBB9 /* SidebarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarViewController.m; sourceTree = "<group>"; };
+		BF81F0AA188C4F7F00BDEBB9 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		BF81F0AB188C4F7F00BDEBB9 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		BF81F0B3188C753C00BDEBB9 /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue.png; sourceTree = "<group>"; };
+		BF81F0B4188C753C00BDEBB9 /* emerland.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emerland.png; sourceTree = "<group>"; };
+		BF81F0B5188C753C00BDEBB9 /* orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange.png; sourceTree = "<group>"; };
+		BF81F0B6188C753C00BDEBB9 /* purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = purple.png; sourceTree = "<group>"; };
+		BF81F0B7188C753C00BDEBB9 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
+		BF81F0B8188C753C00BDEBB9 /* turquoise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turquoise.png; sourceTree = "<group>"; };
+		BF81F0B9188C753C00BDEBB9 /* yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,11 +137,24 @@
 			children = (
 				BF81F07B188BDA3400BDEBB9 /* AppDelegate.h */,
 				BF81F07C188BDA3400BDEBB9 /* AppDelegate.m */,
+				BF81F0A1188BDA4100BDEBB9 /* SWRevealViewController.h */,
+				BF81F0A2188BDA4100BDEBB9 /* SWRevealViewController.m */,
 				BF81F07E188BDA3400BDEBB9 /* Main.storyboard */,
 				BF81F081188BDA3400BDEBB9 /* ViewController.h */,
+				BF81F0B3188C753C00BDEBB9 /* blue.png */,
+				BF81F0B4188C753C00BDEBB9 /* emerland.png */,
+				BF81F0B5188C753C00BDEBB9 /* orange.png */,
+				BF81F0B6188C753C00BDEBB9 /* purple.png */,
+				BF81F0B7188C753C00BDEBB9 /* red.png */,
+				BF81F0B8188C753C00BDEBB9 /* turquoise.png */,
+				BF81F0B9188C753C00BDEBB9 /* yellow.png */,
 				BF81F082188BDA3400BDEBB9 /* ViewController.m */,
 				BF81F084188BDA3400BDEBB9 /* Images.xcassets */,
 				BF81F073188BDA3400BDEBB9 /* Supporting Files */,
+				BF81F0A7188C4C0400BDEBB9 /* SidebarViewController.h */,
+				BF81F0A8188C4C0400BDEBB9 /* SidebarViewController.m */,
+				BF81F0AA188C4F7F00BDEBB9 /* MainViewController.h */,
+				BF81F0AB188C4F7F00BDEBB9 /* MainViewController.m */,
 			);
 			path = SideBar;
 			sourceTree = "<group>";
@@ -228,9 +264,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF81F0BF188C753C00BDEBB9 /* turquoise.png in Resources */,
 				BF81F085188BDA3400BDEBB9 /* Images.xcassets in Resources */,
 				BF81F077188BDA3400BDEBB9 /* InfoPlist.strings in Resources */,
+				BF81F0C0188C753C00BDEBB9 /* yellow.png in Resources */,
+				BF81F0BA188C753C00BDEBB9 /* blue.png in Resources */,
 				BF81F080188BDA3400BDEBB9 /* Main.storyboard in Resources */,
+				BF81F0BD188C753C00BDEBB9 /* purple.png in Resources */,
+				BF81F0BE188C753C00BDEBB9 /* red.png in Resources */,
+				BF81F0BB188C753C00BDEBB9 /* emerland.png in Resources */,
+				BF81F0BC188C753C00BDEBB9 /* orange.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +292,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF81F0A9188C4C0400BDEBB9 /* SidebarViewController.m in Sources */,
+				BF81F0AC188C4F8000BDEBB9 /* MainViewController.m in Sources */,
 				BF81F083188BDA3400BDEBB9 /* ViewController.m in Sources */,
 				BF81F07D188BDA3400BDEBB9 /* AppDelegate.m in Sources */,
 				BF81F079188BDA3400BDEBB9 /* main.m in Sources */,
+				BF81F0A3188BDA4100BDEBB9 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

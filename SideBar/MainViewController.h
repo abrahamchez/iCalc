@@ -8,10 +8,21 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MainViewController : UIViewController
+@interface MainViewController : UIViewController{
+    double result;
+    NSInteger currentOperation;
+    double currentNumber;
+    
+}
+
+@property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *contentItems;
+@property (strong, nonatomic) IBOutlet UILabel *labelResult;
+
+- (IBAction)buttonNumberPressed:(id)sender;
+- (IBAction)buttonOperationPressed:(id)sender;
+- (IBAction)buttonClearPressed:(id)sender;
 
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *sidebarButton;
-@property (weak, nonatomic) IBOutlet UILabel *labelText;
 @property (strong, nonatomic) NSString *textColor;
 
 @end
